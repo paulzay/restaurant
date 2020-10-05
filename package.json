@@ -1,0 +1,23 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "a restaurant page built purely by manipulating the dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulzay/restaurant.git"
+  },
+  "author": "paul ogolla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulzay/restaurant/issues"
+  },
+  "homepage": "https://github.com/paulzay/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
