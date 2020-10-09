@@ -1,6 +1,6 @@
 const about = () => {
-  const footer = document.createElement('footer');
-  footer.innerHTML = `
+  const content = document.createElement('footer');
+  content.innerHTML = `
         <div class="about" data-tab="3">
           <img class="topping" src="http://michiramen.com/images/toppings-2.jpg"/>
           <div class="words">
@@ -16,7 +16,7 @@ const about = () => {
         </div>
   `;
 
-  return footer;
+  return content;
 };
 
 export default about;

@@ -1,6 +1,6 @@
-const about = () => {
-  const footer = document.createElement('footer');
-  footer.innerHTML = `
+const contact = () => {
+  const content = document.createElement('footer');
+  content.innerHTML = `
         <div class="contact" data-tab="4">
             <h2>Hello</h2>
             <p>What can we help you with?</p>
@@ -8,7 +8,7 @@ const about = () => {
         </div>
   `;
 
-  return footer;
+  return content;
 };
 
-export default about;
+export default contact;
