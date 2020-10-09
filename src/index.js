@@ -1,4 +1,4 @@
-import "./style.css";
+import './style.css';
 import loadPage from './init';
 import home from './home';
 import menu from './menu';
