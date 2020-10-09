@@ -1,57 +1,84 @@
-body{
-	background-color: #fff;
+body {
+  background-color: #fff;
 }
+
 * li {
-	list-style: none;
-
+  list-style: none;
 }
+
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-.tabs__btn:active{
-	font-weight: bold;
-	background: #ddd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.tabs{
-	border: 1px solid #ccc;
-	display: flex;
+footer {
+  text-align: center;
 }
 
-.tabs__sidebar{
-/*	width: 125px;
-	flex-shrink: 0;*/
-	background: #ccc;
-	display: flex;
+.tabs {
+  border: 1px solid #ccc;
+  display: flex;
 }
 
-.tabs__btn{
-	display: block;
-	padding: 10px;
-	border: none;
-	width: 100%;
-	outline: none;
-	pointer: cursor;
+.tabs__sidebar {
+  background: #ccc;
+  display: flex;
 }
-.tabs__btn:active{
-	background: #ddd;
+
+.tabs__btn {
+  display: block;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
 }
-.tabs__btn:not(:last-of-type){
-	border-bottom: 1px solid #ccc;
+
+.tabs__btn:active {
+  font-weight: bold;
+  background: #ddd;
 }
-.tabs__btn--active{
-	font-weight: bold;
-	border-bottom: 1px solid green;
-	background: #ddd;
+
+.tabs__btn--active {
+  font-weight: bold;
+  border-bottom: 1px solid green;
+  background: #ddd;
 }
-/*.tabs_content{
-	padding: 15px;
-	font-size: 0,8rem;
-	display: none;
+
+.welcometext {
+  background: url(./assets/mathis-jrdl-gy-ABcRTOEw-unsplash.jpg) repeat-y left -167px;
+  background-color: #4a3a30;
+  background-size: cover;
+  padding: 50px 20px 20px 0;
+  height: auto;
 }
-.tabs_content--active{
-	display: block;
+
+.words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  padding: 7px 14px;
 }
-*/
+
+.words h1 {
+  font-size: 2.5rem;
+}
+
+.words p {
+  font-size: 24px;
+}
+
+.noods {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.noods img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
