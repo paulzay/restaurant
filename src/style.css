@@ -54,7 +54,6 @@ footer {
   height: auto;
 }
 
-
 .words {
   display: flex;
   flex-direction: column;
@@ -84,28 +83,43 @@ footer {
   vertical-align: bottom;
 }
 
-.about .topping{
+/* contact */
+.contact {
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  font-size: 3.875rem;
+}
+
+.contact p {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: gray;
+}
+
+/* about */
+.about .topping {
   width: 100%;
   height: auto;
 }
-.about .words{
+
+.about .words {
   display: block;
   color: #333;
   position: relative;
   clear: both;
   padding: 7px 14px;
-  display: block;
   max-width: 64rem;
   margin: 0 auto;
 }
 
-.about .words h2{
+.about .words h2 {
   font-size: 3.875rem;
 }
 
-.about .words p{
-    font-size: 1.0625rem;
-    line-height: 1.8;
-    color: gray;
-    
+.about .words p {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: gray;
 }
