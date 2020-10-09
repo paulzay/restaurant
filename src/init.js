@@ -1,9 +1,13 @@
+import header from './header';
+import home from './home';
+import footer from './footer';
+
 function loadPage() {
-  let content = document.getElementById('content');
+  const content = document.getElementById('content');
 
   content.appendChild(header());
 
-  const main = document.createElement("main");
+  const main = document.createElement('main');
   main.appendChild(home());
   content.appendChild(main);
 
