@@ -1,11 +1,6 @@
 const header = () => {
   const header = document.createElement('header');
 
-  // const LOGO = document.createElement("div");
-  // companyLogo.classList.add("company-logo");
-  // companyLogo.innerHTML = `Zays Kitchen`;
-  // header.appendChild(companyLogo);
-
   const ul = document.createElement('ul');
   ul.classList.add('tabs__sidebar');
   ul.innerHTML = `
